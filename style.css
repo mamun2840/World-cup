@@ -234,6 +234,7 @@ footer h1{
     .top-banner {
         display: flex;
         flex-direction: column;
+        
     }
     .banner-details {
         width: 80%;
