@@ -228,22 +228,23 @@ footer h1{
         display: flex;
         justify-content: center;
         margin-top: 30px;
-        width: 100%;
+        width: 90%;
     }
     .top-banner {
         height: 850px;
         width: 90%;
         display: flex;
         flex-direction: column;
+        margin-left: 60px;
     }
     .banner-details {
         text-align: center;
         margin-top: 60px;
-        margin-left: 105px;
+        margin-left: 93px;
     }
 
     .banner-details h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
     .banner-details p {
         font-size: 14px;
@@ -259,10 +260,10 @@ footer h1{
         cursor: pointer;
     }
     .banner-img img {
-        width: 358px;
-        height: 340px;
-        margin-top: 38px;
-        margin-left: 42px;
+        width: 314px;
+        height: 288px;
+        margin-top: 91px;
+        margin-left: 24px;
     }
     /* main-section */
     .container-2 {
@@ -324,11 +325,16 @@ footer h1{
 
 
     /* footer-part */
-    .container-3{
+    .container-3 {
         height: 554px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-left: 25px;
+        margin-top: 14px;
     }
     .hr {
-        width:450px;
+        width: 300px;
     }
     .anchor {
         display: flex;
