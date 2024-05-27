@@ -223,7 +223,7 @@ footer h1{
 }
 
 
-@media screen and (max-width:668px) {
+@media(max-width:668px) {
     /* top-banner-responsive */
     .top-banner {
         width: 80%;
