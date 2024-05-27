@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
  font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -95,12 +100,14 @@ body{
     margin-top: 60px;
     
 }
-.manu nav ul{
+.manu nav ul {
     width: 200px;
     height: 50px;
     background-color: white;
     list-style: none;
     border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
 }
 
 .manu .Blog{
@@ -111,20 +118,20 @@ body{
     position: relative;
     font-size: 20px;
     top: 6px;
-    right: 15px;
+    text-align: center;
 }
 
 .manu .group li{
     position: relative;
-    margin-left: 22px;
+    text-align: center;
     top: 6px;
     font-size: 20px;
 }
 .manu .Blog li{
     position: relative;
-    margin-left: 50px;
+   text-align: center;
     top: 6px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .manu nav ul li{
 
@@ -155,19 +162,21 @@ article{
 article img{
     width: 100%;
 }
-article .button button{
+article .button button {
     padding: 8px 20px;
     border-radius: 5px;
     font-size: 17px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 article p{
     margin-left:20px ;
     font-size: 20px;
+    margin-top: 10px;
 }
 .logo-img{
     display: flex;
+    margin-top: 13px;
 }
 .logo-clock img{
     width: 30px;
@@ -221,128 +230,30 @@ footer h1{
     margin: 0 30px;
 }
 
-
-@media(max-width:480px) {
-    /* top-banner-responsive */
-    .container{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        width: 90%;
-    }
+@media screen and (max-width:668px) {
     .top-banner {
-        height: 850px;
-        width: 90%;
         display: flex;
         flex-direction: column;
-        margin-left: 60px;
     }
     .banner-details {
-        text-align: center;
-        margin-top: 60px;
-        margin-left: 93px;
+        width: 80%;
+        margin-top: 71px;
+        margin-left: 100px;
     }
-
     .banner-details h1 {
-        font-size: 27px;
+        font-size: 35px;
     }
     .banner-details p {
         font-size: 14px;
+        margin-top: 35px;
     }
     .banner-details button {
-        padding: 12px 23px;
-        border-radius: 10px;
-        border: none;
-        font-size: 17px;
-        color: white;
-        margin-top: 50px;
-        transition: all 1.5s;
-        cursor: pointer;
+        padding: 10px 24px;
     }
     .banner-img img {
-        width: 314px;
-        height: 288px;
-        margin-top: 91px;
-        margin-left: 24px;
-    }
-    /* main-section */
-    .container-2 {
-        width: 80%;
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        margin-left: 190px;
-    }
-    .main {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        position: relative;
-        right: 130px;
-        top: -40px;
-    }
-    .whole-article {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 50px;
-    margin-left: 15px;
-}
-    .manu {
-        background-color: white;
-    }
-    .manu nav{
-    font-size: 26px;
-   }
-    .manu nav ul {
-        width: 200px;
-        height: 50px;
-        background-color: white;
-        list-style: none;
-        border-radius: 10px;
-        border: 1px solid;
-    }
-    .manu .Blog {
-        background-color: red;
-        border: none;
-    }
-    .whole-article {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
-        width: 100%;
-    }
-    article {
-        height: 500px;
-        border: 1px solid rgb(211, 203, 203);
-        border-radius: 20px;
-        width: 90%;
-        margin-left: -15px;
-    }
-    article p {
-        margin-left: 20px;
-        font-size: 24px;
-    }
-
-
-    /* footer-part */
-    .container-3 {
-        height: 554px;
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        margin-left: 25px;
-        margin-top: 14px;
-    }
-    .hr {
-        width: 300px;
-    }
-    .anchor {
-        display: flex;
-        margin-top: 40px;
-        flex-direction: column;
-    }
-    .anchor >div{
-        margin-top: 15px;
-        text-align: center;
+        width: 400px;
+        height: 395px;
+        margin-top: 44px;
+        margin-left: 66px;
     }
 }
