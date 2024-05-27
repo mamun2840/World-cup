@@ -250,10 +250,13 @@ footer h1{
     .banner-details button {
         padding: 10px 24px;
     }
+    .banner-img {
+        margin-left: 59px;
+        margin-top: -31px;
+    }
     .banner-img img {
         width: 291px;
         height: 348px;
-        margin-top: 70px;
-        margin-left: 66px;
+
     }
 }
