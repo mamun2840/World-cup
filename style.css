@@ -238,7 +238,7 @@ footer h1{
     .banner-details {
         width: 80%;
         margin-top: 71px;
-        margin-left: 100px;
+        margin-left: 60px;
     }
     .banner-details h1 {
         font-size: 35px;
@@ -251,9 +251,9 @@ footer h1{
         padding: 10px 24px;
     }
     .banner-img img {
-        width: 400px;
-        height: 395px;
-        margin-top: 44px;
+        width: 291px;
+        height: 348px;
+        margin-top: 70px;
         margin-left: 66px;
     }
 }
