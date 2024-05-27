@@ -1,0 +1,189 @@
+body{
+ font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.top-banner{
+    width: 80%;
+    height: 850px;
+    background-color: black;
+    border-radius: 30px ;
+    color: white;
+    display: flex;
+    
+}
+.banner-details{
+    width: 50%;
+    margin: 70px 0 0 80px;
+
+
+} 
+.banner-details h1{
+    font-size: 70px
+}
+.banner-details p{
+    font-size: 20px
+    
+}
+.banner-img{
+    width: 50%;
+    
+} 
+.banner-details button{
+    padding:20px 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    color:white;
+    margin-top: 40px;
+    transition: all 1.5s ;
+    cursor: pointer;
+}
+.banner-details button:hover{
+    background-color: orange;
+    font-size: 23px;
+    color: azure;
+}
+.fa-arrow-right{
+    position: relative;
+    left:15px;
+}
+
+.banner-img img{
+    width: 600px;
+    height: 750px;
+    margin-top:100px ;
+}
+
+
+/* main-part */
+.container-2{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    display: flex;
+}
+.manu{
+    width: 330px;
+    height: 330px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+
+   
+
+    
+
+}
+.manu nav{
+    margin-top: 60px;
+    
+}
+.manu nav ul{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.manu .Blog{
+    background-color: red;
+   
+}
+.manu .match li{
+    position: relative;
+    font-size: 20px;
+    top: 6px;
+    right: 15px;
+}
+
+.manu .group li{
+    position: relative;
+    margin-left: 22px;
+    top: 6px;
+    font-size: 20px;
+}
+.manu .Blog li{
+    position: relative;
+    margin-left: 50px;
+    top: 6px;
+    font-size: 20px;
+}
+.manu nav ul li{
+
+
+  font-size: 25px;
+  
+}
+.manu nav ul li a{
+
+    color:black;
+    text-decoration: none;
+    
+
+}
+.whole-article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin-left: 15px;
+}
+article{
+    width: 330px;
+    height: 400px;
+    border: 1px solid rgb(211, 203, 203);
+    border-radius: 20px;
+   
+}
+article img{
+    width: 100%;
+}
+article .button button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+article p{
+    margin-left:20px ;
+    font-size: 20px;
+}
+.logo-img{
+    display: flex;
+}
+.logo-clock img{
+    width: 30px;
+    margin-left: 20px;
+}
+.logo-clock span{
+    margin-left: 8px;
+    position:relative;
+    top: -8px;
+
+}
+.logo-massage img{
+    margin-left:20px;
+    width: 30px;
+}
+.logo-massage span{
+    margin-left: 8px;
+    position:relative;
+    top: -8px;
+}
+.container-3{
+    height: 1000px;
+    background-color: green;
+}
