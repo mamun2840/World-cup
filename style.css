@@ -65,10 +65,11 @@ body{
 
 /* main-part */
 .container-2{
-    width: 100%;
+    width: 80%;
     margin-top: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 180px;
 }
 .main{
     display: flex;
