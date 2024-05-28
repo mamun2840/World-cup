@@ -230,34 +230,47 @@ footer h1{
     margin: 0 30px;
 }
 
-@media screen and (max-width:668px) {
+@media screen and (max-width:892px) {
     .top-banner {
-        display: flex;
+        width: 100%;
+        background-color: black;
+        color: white;
         flex-direction: column;
-        
-    }
+        display: flex;
+        height: 73em;
+    }  
+
     .banner-details {
-        width: 80%;
-        margin-top: 71px;
-        margin-left: 60px;
+        margin: 53px 0 0 69px;
     }
+
     .banner-details h1 {
-        font-size: 35px;
+        font-size: 43px;
+        margin-bottom: 54px;
+        width: 299px;
     }
+
     .banner-details p {
-        font-size: 14px;
-        margin-top: 35px;
+        font-size: 17px;
+        width: 116%;
     }
     .banner-details button {
-        padding: 10px 24px;
-    }
-    .banner-img {
-        margin-left: 59px;
-        margin-top: -31px;
+        padding: 20px 45px;
+        border: none;
+        background-color: red;
+        font-size: 20px;
+        color: white;
+        margin-top: 51px;
+        transition: all 1.5s;
+        cursor: pointer;
     }
     .banner-img img {
-        width: 291px;
-        height: 348px;
-
+        width: 24em;
+        height: 29em;
+        position: relative;
+        top: 8px;
+        margin-left: 1em;
     }
+    
+    
 }
